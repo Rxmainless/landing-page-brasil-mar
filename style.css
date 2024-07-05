@@ -1,0 +1,179 @@
+/* Reset padrão e estilos globais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Jetbrains Mono', monospace;
+    line-height: 1.6;
+    background: linear-gradient(to bottom, #3A60C1, #1640A6);
+    color: #000000;
+}
+
+/* Estilos para a barra de navegação */
+.navbar {
+    background-color: #fff;
+}
+
+.navbar-brand .logo {
+    max-width: 150px;
+    height: auto;
+}
+
+.navbar-nav .nav-link {
+    color: #000000;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #1640A6;
+}
+
+/* Estilos para o carrossel */
+.owl-carousel .item {
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.owl-carousel .item h2 {
+    font-size: 3rem;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.owl-carousel .item p {
+    color: #fff;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.owl-carousel .item .button .btn {
+    background-color: #1640A6;
+    border-color: #1640A6;
+}
+
+.owl-carousel .item .button .btn:hover {
+    background-color: #fff;
+    color: #1640A6;
+}
+
+/* Estilos para seções de conteúdo */
+section {
+    padding: 80px 0;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.section-title h2 {
+    font-size: 2.5rem;
+    color: #1640A6;
+    margin-bottom: 1rem;
+}
+
+.section-title p {
+    font-size: 1.5rem;
+    color: #000000;
+}
+
+.section-content {
+    margin-top: 40px;
+}
+
+.section-content .btn-primary {
+    background-color: #1640A6;
+    border-color: #1640A6;
+}
+
+.section-content .btn-primary:hover {
+    background-color: #fff;
+    color: #1640A6;
+}
+
+/* Estilos para ícones de serviços */
+.icon-box {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.icon-box .icon {
+    font-size: 3rem;
+    color: #ffffff;
+    margin-bottom: 1rem;
+}
+
+.icon-box-content h3 {
+    font-size: 1.8rem;
+    color: #ffffff;
+    margin-bottom: 1rem;
+}
+
+.icon-box-content p {
+    color: #000000;
+    font-size: 1.2rem;
+}
+
+.icon-box-content .link a {
+    color: #1640A6;
+    text-decoration: none;
+}
+
+.icon-box-content .link a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para formulário de contato */
+.contact-info {
+    margin-bottom: 40px;
+}
+
+.contact-info p {
+    font-size: 1.2rem;
+    color: #000000;
+    margin-bottom: 0.5rem;
+}
+
+.contact-info i {
+    margin-right: 10px;
+}
+
+.contact-form .form-group {
+    margin-bottom: 20px;
+}
+
+.contact-form .btn-primary {
+    background-color: #1640A6;
+    border-color: #1640A6;
+}
+
+.contact-form .btn-primary:hover {
+    background-color: #fff;
+    color: #1640A6;
+}
+
+/* Estilos para rodapé */
+footer {
+    padding: 20px 0;
+    background-color: #000000;
+    color: #fff;
+}
+
+footer ul.list-inline li {
+    margin-right: 10px;
+}
+
+footer ul.list-inline li a {
+    color: #fff;
+}
+
+footer ul.list-inline li a:hover {
+    color: #1640A6;
+}
