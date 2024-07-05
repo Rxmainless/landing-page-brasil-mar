@@ -1,4 +1,4 @@
-/* Reset padrão e estilos globais */
+
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +12,6 @@ body {
     color: #000000;
 }
 
-/* Estilos para a barra de navegação */
 .navbar {
     background-color: #fff;
 }
@@ -30,7 +29,6 @@ body {
     color: #1640A6;
 }
 
-/* Estilos para o carrossel */
 .owl-carousel .item {
     background-size: cover;
     background-position: center;
@@ -63,7 +61,6 @@ body {
     color: #1640A6;
 }
 
-/* Estilos para seções de conteúdo */
 section {
     padding: 80px 0;
 }
@@ -98,7 +95,6 @@ section {
     color: #1640A6;
 }
 
-/* Estilos para ícones de serviços */
 .icon-box {
     text-align: center;
     margin-bottom: 40px;
@@ -130,7 +126,6 @@ section {
     text-decoration: underline;
 }
 
-/* Estilos para formulário de contato */
 .contact-info {
     margin-bottom: 40px;
 }
@@ -159,7 +154,6 @@ section {
     color: #1640A6;
 }
 
-/* Estilos para rodapé */
 footer {
     padding: 20px 0;
     background-color: #000000;
